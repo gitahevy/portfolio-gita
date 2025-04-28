@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opini</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+    header { background: #333; color: white; padding: 20px; text-align: center; }
+    footer { background: #222; color: white; padding: 20px; text-align: center; }
+    .gallery { background-color: #e0e0e0; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+    .card { width: 30%; display: flex; flex-direction: column; align-items: center; background-color: #ffffff; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card .top { height: 120px; width: 100%; background: #ccc; margin-bottom: 10px; }
+    .card .top img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+    .card .bottom { height: 60px; width: 100%; background: #aaa; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; border-radius: 4px; }
+    .contact-title { text-align: center; font-size: 1.5em; margin: 40px 0 20px; background-color: #ddd; padding: 10px 0; }
+    .contact-section { background-color: #f0f0f0; display: flex; justify-content: space-between; padding: 40px; }
+    form { width: 50%; }
+    form .form-group { margin-bottom: 15px; }
+    form label { display: block; margin-bottom: 5px; text-align: left; }
+    form input, form textarea { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+    form button { padding: 10px 20px; background: #333; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    .map { width: 40%; background: #ddd; display: flex; align-items: center; justify-content: center; height: 300px; border-radius: 4px; overflow: hidden; }
+    iframe { width: 100%; height: 100%; border: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Opini</h1>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+        <div class="top"><img src="c:\Users\HP\Downloads\pensi puisi beruntun.jpeg" alt="Gambar 2"></div>
+        <div class="bottom">Pensi Puisi Beruntun</div>
+      </div>
+      <div class="card">
+        <div class="top"><img src="c:\Users\HP\Downloads\visit to alun-alun kota Bojonegoro.jpeg" alt="Gambar 3"></div>
+        <div class="bottom">Visit to alun-alun kota Bojonegoro</div>
+      </div>
+      <div class="card">
+        <div class="top"><img src="c:\Users\HP\Downloads\Merayakan Hari Guru.jpeg" alt="Gambar 4"></div>
+        <div class="bottom">Merayakan Hari Guru</div>
+      </div>
+      <div class="card">
+        <div class="top"><img src="c:\Users\HP\Downloads\Pawai HSN.jpeg" alt="Gambar 5"></div>
+        <div class="bottom">Pawai HSN</div>
+      </div>
+      <div class="card">
+        <div class="top"><img src="c:\Users\HP\Downloads\Ngaji Balagh Ramadhan ba'da subuh.jpeg" alt="Gambar 6"></div>
+        <div class="bottom">Ngaji balagh Ramadhan ba'da subuh</div>
+      </div>
+  </section>
+
+  <div class="contact-title">Hubungi Saya</div>
+
+  <section class="contact-section">
+    <form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+      </div>
+      <div class="form-group">
+        <label for="subjek">Subjek</label>
+        <input type="text" id="subjek" name="subjek">
+      </div>
+      <div class="form-group">
+        <label for="isi">Isi</label>
+        <textarea id="isi" name="isi"></textarea>
+      </div>
+      <button type="submit">Kirim</button>
+    </form>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.5789488128856!2d111.8699890742431!3d-7.510760174350607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7842140cc7c3ef%3A0xe8386177b3b8f7c2!2sBanjaran%2C%20Baureno%2C%20Kabupaten%20Bojonegoro%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1714175366904!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Copyright by Gita Hevy Revaliana</p>
+  </footer>
+</body>
+</html>
